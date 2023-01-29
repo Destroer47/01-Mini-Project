@@ -10,7 +10,7 @@ header {
     height: 80px;
     background-color: black;
     color: white;
-    border: 5px rgb(139, 15, 15) solid;
+    border-bottom: 5px rgb(139, 15, 15) solid;
 }
 
 footer {
@@ -21,10 +21,15 @@ footer {
     height: 60px;
     background-color: black;
     color: white;
-    border: 5px rgb(139, 15, 15) solid;
+    border-top: 5px rgb(139, 15, 15) solid;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
 ul {
+
     text-align: right;
 }
 
@@ -47,12 +52,28 @@ main {
     
 }
 
+img {
+    position: relative;
+    margin: 0 43%;
+}
+
 .header {
     position: absolute;
     width: 100%;
     top: 20px;
 }
 
+.body {
+    display: block;
+    margin: 5px auto;
+    border: 10px rgb(139, 15, 15) solid;
+    margin-top: 100px;
+}
+
+.tech {
+    text-align: center;
+}
+
 .footer{
-    /* Add code here, Haven't figured it out yet */
+    margin: 20px auto;
 }
