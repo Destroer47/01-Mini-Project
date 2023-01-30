@@ -5,7 +5,6 @@
 
 header {
     position: fixed;
-    text-align: center;
     width: 100%;
     height: 80px;
     background-color: black;
@@ -25,19 +24,16 @@ footer {
 }
 
 h1, h2 {
-    text-align: center;
 }
 
 ul {
-
-    text-align: right;
+    
 }
 
 li {
     display: inline;
     padding: 10px;
     font-size: 25px;
-    vertical-align: middle;
 }
 
 a {
@@ -49,18 +45,12 @@ main {
     display: block;
     margin: 0 auto;
     padding: 10px;
-    
 }
 
 img {
-    position: relative;
-    margin: 0 43%;
-}
-
-.header {
-    position: absolute;
-    width: 100%;
-    top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .body {
@@ -70,10 +60,44 @@ img {
     margin-top: 100px;
 }
 
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
 .tech {
     text-align: center;
 }
 
-.footer{
+.footer {
     margin: 20px auto;
 }
+
+.logo {
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: left;
+    width: 33%;
+}
+
+.head-2 {
+    flex-grow: 1;
+    text-align: center;
+    width: 33%;
+}
+
+.contacts {
+    flex-grow: 1;
+    text-align: right;
+    width: 33%;
+}
+
+#img-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: unset;
+    padding-left: 10px;
+}
+
